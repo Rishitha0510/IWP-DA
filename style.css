@@ -1,0 +1,83 @@
+header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    padding: 10px 300px;
+    transition: 0.5s ease;
+  }
+  
+  header.sticky{
+    background: #3a6cf4;
+    padding: 10px 200px;
+  }
+  
+  header .brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  header .navigation a{
+    color: black;
+    font-size: 1em;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 100px;
+    text-align: center; 
+  }
+  
+  header .navigation a:hover{
+    color: #3a6cf4;
+  }
+
+  header.sticky .navigation a:hover{
+    color: #000;
+  }
+  section{
+    padding: 30px ;
+  }
+  
+  .about{
+    width: 96%;
+    min-height: 40vh; 
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 25px;
+  }
+  
+  .about .aboutme {
+    color: #034f84; 
+    font-family: "Georgia",Serif;
+  }
+
+  .skills{
+    width: 96%;
+    min-height: 40vh;
+    align-items: center;
+    background-color: #ffeead;
+    border-radius: 25px;
+  }
+
+  .skills .skillsme {
+      color: #d96459;
+      font-family: "Georgia",Serif;
+  }
+  
+ .contact{
+    position: relative;
+    width: 96%;
+    min-height: 40vh;
+    align-items: center;
+    background-color: #eea29a;
+    border-radius: 25px;
+  }
+
+  .contact .contactinfo {
+      color: #4f3222;
+      font-family:"Georgia",Serif;
+  }
+  
+  
